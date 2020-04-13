@@ -210,7 +210,7 @@ footer
 
 /* Media Queries */
 
-@media screen and (max-device-width: 640px){
+@media(max-width: 768px){
     header #branding,
     header nav,
     header nav li,
