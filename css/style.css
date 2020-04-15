@@ -33,10 +33,47 @@ ul
 .dark
 {
     padding: 15px;
-    background-color: #35424a;
-    color: #ffffff;
+    background-color: rgb(255, 44, 44);
+    color: #1d1919;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-family: cursive;
+    font-weight: 700;
+}
+
+.specialstyle
+{
+    padding: 10px;
+    background-color: rgb(255, 87, 45);
+    color: #35424a;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.dark h2
+{
+    text-decoration: underline;
+    text-align: center;
+}
+
+.dark2
+{
+    background-color: #35424a;
+    color: #f4f4f4;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.page-title
+{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 /* Header */
@@ -113,8 +150,12 @@ header a:hover
 
 #showcase p
 {
-    font-size: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkred;
+    font: outline;
+    font-weight: 800;
+    font-style: italic;
 }
 
 /* Newsletter */
@@ -149,6 +190,8 @@ header a:hover
 #boxes
 {
     margin-top: 20px;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #boxes .box
